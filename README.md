@@ -8,11 +8,11 @@ Connect your OpenWrt access points to a BlueLake controller for centralized WiFi
 
 | Architecture | Devices | Download |
 |--------------|---------|----------|
-| `arm_cortex-a15` | Extreme AP3935, Netgear R7800, Zyxel NBG6817 | [bluelake_1.0.1-1_arm_cortex-a15_neon-vfpv4.ipk](bluelake_1.0.1-1_arm_cortex-a15_neon-vfpv4.ipk) |
-| `arm_cortex-a7` | GL.iNet, many mid-range APs | [bluelake_1.0.1-1_arm_cortex-a7_neon-vfpv4.ipk](bluelake_1.0.1-1_arm_cortex-a7_neon-vfpv4.ipk) |
-| `mips_24kc` | TP-Link Archer, older APs | [bluelake_1.0.1-1_mips_24kc.ipk](bluelake_1.0.1-1_mips_24kc.ipk) |
-| `mipsel_24kc` | Xiaomi, MediaTek MT7621 routers | [bluelake_1.0.1-1_mipsel_24kc.ipk](bluelake_1.0.1-1_mipsel_24kc.ipk) |
-| `x86_64` | VMs, PC hardware | [bluelake_1.0.1-1_x86_64.ipk](bluelake_1.0.1-1_x86_64.ipk) |
+| `arm_cortex-a15` | Extreme AP3935, Netgear R7800, Zyxel NBG6817 | [bluelake_1.0.2-1_arm_cortex-a15_neon-vfpv4.ipk](bluelake_1.0.2-1_arm_cortex-a15_neon-vfpv4.ipk) |
+| `arm_cortex-a7` | GL.iNet, many mid-range APs | [bluelake_1.0.2-1_arm_cortex-a7_neon-vfpv4.ipk](bluelake_1.0.2-1_arm_cortex-a7_neon-vfpv4.ipk) |
+| `mips_24kc` | TP-Link Archer, older APs | [bluelake_1.0.2-1_mips_24kc.ipk](bluelake_1.0.2-1_mips_24kc.ipk) |
+| `mipsel_24kc` | Xiaomi, MediaTek MT7621 routers | [bluelake_1.0.2-1_mipsel_24kc.ipk](bluelake_1.0.2-1_mipsel_24kc.ipk) |
+| `x86_64` | VMs, PC hardware | [bluelake_1.0.2-1_x86_64.ipk](bluelake_1.0.2-1_x86_64.ipk) |
 
 > **Not sure which to use?** SSH into your device and run: `opkg print-architecture`
 
