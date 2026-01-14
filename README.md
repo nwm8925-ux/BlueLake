@@ -8,11 +8,11 @@ Connect your OpenWrt access points to a BlueLake controller for centralized WiFi
 
 | Architecture | Devices | Download |
 |--------------|---------|----------|
-| `arm_cortex-a15` | Extreme AP3935, Netgear R7800, Zyxel NBG6817 | [bluelake_1.0.0-1_arm_cortex-a15_neon-vfpv4.ipk](bluelake_1.0.0-1_arm_cortex-a15_neon-vfpv4.ipk) |
-| `arm_cortex-a7` | GL.iNet, many mid-range APs | [bluelake_1.0.0-1_arm_cortex-a7_neon-vfpv4.ipk](bluelake_1.0.0-1_arm_cortex-a7_neon-vfpv4.ipk) |
-| `mips_24kc` | TP-Link Archer, older APs | [bluelake_1.0.0-1_mips_24kc.ipk](bluelake_1.0.0-1_mips_24kc.ipk) |
-| `mipsel_24kc` | Xiaomi, MediaTek MT7621 routers | [bluelake_1.0.0-1_mipsel_24kc.ipk](bluelake_1.0.0-1_mipsel_24kc.ipk) |
-| `x86_64` | VMs, PC hardware | [bluelake_1.0.0-1_x86_64.ipk](bluelake_1.0.0-1_x86_64.ipk) |
+| `arm_cortex-a15` | Extreme AP3935, Netgear R7800, Zyxel NBG6817 | [bluelake_1.0.1-1_arm_cortex-a15_neon-vfpv4.ipk](bluelake_1.0.1-1_arm_cortex-a15_neon-vfpv4.ipk) |
+| `arm_cortex-a7` | GL.iNet, many mid-range APs | [bluelake_1.0.1-1_arm_cortex-a7_neon-vfpv4.ipk](bluelake_1.0.1-1_arm_cortex-a7_neon-vfpv4.ipk) |
+| `mips_24kc` | TP-Link Archer, older APs | [bluelake_1.0.1-1_mips_24kc.ipk](bluelake_1.0.1-1_mips_24kc.ipk) |
+| `mipsel_24kc` | Xiaomi, MediaTek MT7621 routers | [bluelake_1.0.1-1_mipsel_24kc.ipk](bluelake_1.0.1-1_mipsel_24kc.ipk) |
+| `x86_64` | VMs, PC hardware | [bluelake_1.0.1-1_x86_64.ipk](bluelake_1.0.1-1_x86_64.ipk) |
 
 > **Not sure which to use?** SSH into your device and run: `opkg print-architecture`
 
@@ -40,7 +40,7 @@ opkg install /tmp/bluelake_*.ipk
 
 After installation, configure via the web interface:
 
-1. Go to **Services** → **BlueLake**
+1. Go to **System** → **BlueLake**
 2. Enter your controller's IP address or hostname
 3. Check **Enable**
 4. Click **Save & Apply**
@@ -49,7 +49,7 @@ The agent will automatically connect to your controller.
 
 ## Verify Installation
 
-Check the status page at **Services** → **BlueLake** → **Status**
+Check the status page at **System** → **BlueLake** → **Status**
 
 Or via command line:
 ```bash
